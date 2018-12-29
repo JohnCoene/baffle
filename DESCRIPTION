@@ -1,0 +1,14 @@
+Package: baffle
+Title: Baffle Text
+Version: 0.0.1
+Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
+Description: Baffle text.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  shiny,
+  magrittr,
+  htmltools,
+  htmlwidgets
+RoxygenNote: 6.1.1
