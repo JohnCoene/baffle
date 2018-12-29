@@ -4,7 +4,6 @@
 #'
 #' @inheritParams b_set
 #' @param delay Delay in milliseconds before action is triggered.
-#' @param duration Duration of reveal.
 #'
 #' @examples
 #' b_affle("Baffle this") %>%
@@ -30,10 +29,9 @@ b_start <- function(b, delay = 0){
 
 #' @rdname triggers
 #' @export
-b_reveal <- function(b, duration = 1000, delay = 3000){
+b_reveal <- function(b, delay = 3000){
   b$x$reveal <- TRUE
   b$x$revealDelay <- delay
-  b$x$revealDuration <- duration
   return(b)
 }
 

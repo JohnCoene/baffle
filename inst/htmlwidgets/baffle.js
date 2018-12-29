@@ -31,7 +31,7 @@ HTMLWidgets.widget({
           setTimeout(function(){ b.once(); }, x.onceDelay);
 
         if(x.hasOwnProperty('reveal'))
-          setTimeout(function(){ b.reveal(x.revealDuration, 0); }, x.revealDelay);
+          setTimeout(function(){ b.reveal(); }, x.revealDelay);
 
       },
 

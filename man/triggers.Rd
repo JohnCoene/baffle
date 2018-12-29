@@ -12,7 +12,7 @@ b_once(b, delay = 0)
 
 b_start(b, delay = 0)
 
-b_reveal(b, duration = 1000, delay = 3000)
+b_reveal(b, delay = 3000)
 
 b_stop(b, delay = 3000)
 }
@@ -20,8 +20,6 @@ b_stop(b, delay = 3000)
 \item{b}{An object of class \code{baffle} as returned \code{\link{b_affle}}.}
 
 \item{delay}{Delay in milliseconds before action is triggered.}
-
-\item{duration}{Duration of reveal.}
 }
 \description{
 Trigger baffling
